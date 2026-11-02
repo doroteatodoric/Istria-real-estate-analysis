@@ -35,13 +35,13 @@ potenzielle deutsche Immobilienkäufer auf?
 1. Wie haben sich die medianen Preise für Wohnungen und Apartments in Istrien zwischen 2012 und 2025 entwickelt?
 
 2. Welche istrischen Städte und Gemeinden weisen 2025 die höchsten bzw.
-   niedrigsten medianen Preis für Wohnngen, Apartments und Familienhäuser pro m² auf?
+   niedrigsten medianen Preise für Wohnungen, Apartments und Familienhäuser pro m² auf?
 
 3. Wie hat sich die Anzahl der veröffentlichten Immobilientransaktionen zwischen
    2012 und 2025 entwickelt und welche Standorte weisen 2025 die höchste
    Marktaktivität auf?
 
-4. Besteht 2025 ein Zusammenhang zwischen den Preisniveau und der Anzahl
+4. Besteht 2025 ein Zusammenhang zwischen dem Preisniveau und der Anzahl
    der veröffentlichten Immobilientransaktionen?
 
 5. Wie hat sich die touristische Nachfrage aus Deutschland in Istrien zwischen
@@ -49,3 +49,17 @@ potenzielle deutsche Immobilienkäufer auf?
 
 6. Welche istrischen Standorte verbinden Immobilienmarktaktivität mit einer
    hohen touristischen Nachfrage?
+
+
+# Verwendete Technologien
+
+- **Python:** Datenaufbereitung und Analyse
+- **pandas:** Verarbeitung und Auswertung der Datensätze
+- **Jupyter Notebook:** Dokumentation und Durchführung der Analyseschritte
+- **Datenvisualisierung:** Grafische Darstellung der Preisentwicklung, Marktaktivität und touristischen Nachfrage
+
+# Projektstruktur
+
+- `01_data_cleaning.ipynb` – Datenbereinigung und Vorbereitung
+- `02_data_analysis.ipynb` – Datenanalyse und Visualisierung
+- Vier PNG-Grafiken – Visualisierung ausgewählter Analyseergebnisse
