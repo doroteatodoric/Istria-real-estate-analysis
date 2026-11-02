@@ -8,7 +8,7 @@ analysiert. Ziel ist es, die Entwicklung des Immobilienmarktes zu untersuchen
 und Standorte zu identifizieren, die interessante Marktmerkmale für potenzielle
 deutsche Immobilienkäufer aufweisen.
 
-Hierfür werden offizielle Daten zu Preisen und Transaktionen von Wohnungen, Apartments und Familienhäuser
+Hierfür werden offizielle Daten zu Preisen und Transaktionen von Wohnungen, Apartments und Familienhäusern
 auf Ebene der istrischen Städte und Gemeinden mit Tourismusdaten kombiniert.
 
 # Szenario
@@ -70,3 +70,67 @@ Der Bericht umfasst vier Seiten:
 4. **Marktpotenzial** – Zusammenführung relevanter Kennzahlen zur Bewertung von Marktmerkmalen
 
 Das Dashboard ergänzt die Python-Analyse und ermöglicht eine übersichtliche Darstellung der wichtigsten Erkenntnisse.
+
+## Zentrale Analyseergebnisse
+
+### 1. Entwicklung der Immobilienpreise (2012–2025)
+
+Die Analyse der verfügbaren Standortdaten zeigt einen deutlichen Anstieg der medianen Quadratmeterpreise für Wohnungen und Apartments in Istrien.
+
+- **2012:** ca. 1.185 €/m²
+- **2025:** ca. 2.456 €/m²
+
+Insbesondere in den letzten Jahren des Untersuchungszeitraums ist ein deutlicher Preisanstieg erkennbar.
+
+Die Werte basieren auf den verfügbaren Standortdaten. Da nicht für alle Städte und Gemeinden in jedem Jahr Preisangaben vorliegen, ist die Vergleichbarkeit eingeschränkt.
+
+### 2. Regionale Preisunterschiede
+
+Die Immobilienpreise unterscheiden sich deutlich zwischen den istrischen Städten und Gemeinden.
+
+Zu den Standorten mit den höchsten ausgewiesenen Quadratmeterpreisen für Wohnungen und Apartments im Jahr 2025 gehören:
+
+- **Umag:** ca. 3.551 €/m²
+- **Rovinj:** ca. 3.355 €/m²
+
+Die regionalen Preisunterschiede verdeutlichen, warum eine standortbezogene Betrachtung für potenzielle Immobilienkäufer wichtig ist.
+
+### 3. Marktaktivität und Immobilientransaktionen
+
+Auch die Anzahl der veröffentlichten Wohnungstransaktionen unterscheidet sich zwischen den Standorten.
+
+Im Jahr 2025 weisen insbesondere folgende Städte eine hohe Marktaktivität auf:
+
+- **Pula:** 388 Transaktionen
+- **Umag:** 255 Transaktionen
+- **Poreč:** 212 Transaktionen
+
+Die Transaktionszahlen liefern zusätzliche Informationen zur Marktaktivität und ergänzen die Betrachtung der Immobilienpreise.
+
+### 4. Zusammenhang zwischen Preisniveau und Marktaktivität
+
+Die Korrelationsanalyse für 2025 zeigt einen positiven, aber begrenzten Zusammenhang zwischen dem Preisniveau und der Anzahl der veröffentlichten Immobilientransaktionen.
+
+- **Korrelationskoeffizient:** r ≈ 0,36
+- **Untersuchte Standorte:** 14
+
+Ein höheres Preisniveau geht somit nicht zwangsläufig mit einer höheren Marktaktivität einher. Aus der Korrelation lässt sich außerdem kein ursächlicher Zusammenhang ableiten.
+
+### 5. Touristische Nachfrage aus Deutschland
+
+Die Auswertung der Tourismusdaten zeigt einen Anstieg der Gästeankünfte aus Deutschland in Istrien:
+
+- **2019:** ca. 1,05 Millionen Gästeankünfte
+- **2025:** ca. 1,23 Millionen Gästeankünfte
+
+Die touristische Nachfrage stellt einen ergänzenden Faktor bei der Betrachtung regionaler Marktmerkmale dar. Sie erlaubt jedoch allein keine Aussage über die Rentabilität einer Immobilieninvestition.
+
+### 6. Fazit und geschäftliche Einordnung
+
+Die Analyse zeigt, dass sich istrische Standorte hinsichtlich Immobilienpreisen, Marktaktivität und touristischer Nachfrage deutlich unterscheiden.
+
+Für potenzielle deutsche Immobilienkäufer kann deshalb eine Kombination mehrerer Kennzahlen hilfreicher sein als die ausschließliche Betrachtung des Quadratmeterpreises.
+
+Das Projekt verdeutlicht, wie öffentlich verfügbare Daten mithilfe von Python analysiert und anschließend in Power BI für eine verständliche, datenbasierte Entscheidungsunterstützung aufbereitet werden können.
+
+**Hinweis:** Die Ergebnisse basieren auf den verfügbaren veröffentlichten Daten. Fehlende Preisangaben, unterschiedliche Datenverfügbarkeit und begrenzte Fallzahlen sind bei der Interpretation zu berücksichtigen.
