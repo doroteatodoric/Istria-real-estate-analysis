@@ -51,15 +51,22 @@ potenzielle deutsche Immobilienkäufer auf?
    hohen touristischen Nachfrage?
 
 
-# Verwendete Technologien
+## Verwendete Technologien
 
-- **Python:** Datenaufbereitung und Analyse
-- **pandas:** Verarbeitung und Auswertung der Datensätze
-- **Jupyter Notebook:** Dokumentation und Durchführung der Analyseschritte
-- **Datenvisualisierung:** Grafische Darstellung der Preisentwicklung, Marktaktivität und touristischen Nachfrage
+- **Python und pandas:** Datenbereinigung, Datenaufbereitung und explorative Datenanalyse
+- **Matplotlib und Seaborn:** Statistische Visualisierungen während der Analyse
+- **Jupyter Notebook:** Durchführung und Dokumentation der Analyseschritte
+- **Power BI:** Interaktive Visualisierung und Präsentation der Analyseergebnisse
 
-# Projektstruktur
+## Power BI Dashboard
 
-- `01_data_cleaning.ipynb` – Datenbereinigung und Vorbereitung
-- `02_data_analysis.ipynb` – Datenanalyse und Visualisierung
-- Vier PNG-Grafiken – Visualisierung ausgewählter Analyseergebnisse
+Die Ergebnisse der Immobilienmarktanalyse wurden abschließend in einem Power-BI-Bericht aufbereitet.
+
+Der Bericht umfasst vier Seiten:
+
+1. **Projektübersicht** – Einführung in die Analyse
+2. **Immobilienmarkt** – Entwicklung und Analyse des Immobilienmarktes
+3. **Standortvergleiche** – Vergleich ausgewählter Standorte in Istrien
+4. **Marktpotenzial** – Zusammenführung relevanter Kennzahlen zur Bewertung von Marktmerkmalen
+
+Das Dashboard ergänzt die Python-Analyse und ermöglicht eine übersichtliche Darstellung der wichtigsten Erkenntnisse.
